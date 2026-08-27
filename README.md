@@ -9,3 +9,13 @@ Internal weekly web-zine for Huntington University Information & Technology Serv
 | `issues/issue-01.pdf` | Issue #1, PDF export |
 | `IT_Newsletter_Issue_1.md` | Issue #1 source text |
 | `Ping_Design_Brief.md` | Design brief / visual direction |
+
+## GIF poll results
+
+Votes are cast in a Microsoft Forms poll; the page shows a live tally read from
+`issues/issue-01-results.json` (auto-refreshes every 60s). To publish the current
+numbers from the Forms **Responses** tab:
+
+```
+scripts/update-results.sh <option-a> <option-b> <option-c>
+```
