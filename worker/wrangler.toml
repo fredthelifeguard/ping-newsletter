@@ -1,0 +1,7 @@
+name = "ping-poll"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+[[kv_namespaces]]
+binding = "POLL"
+id = "KV_ID_PLACEHOLDER"

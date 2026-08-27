@@ -10,12 +10,7 @@ Internal weekly web-zine for Huntington University Information & Technology Serv
 | `IT_Newsletter_Issue_1.md` | Issue #1 source text |
 | `Ping_Design_Brief.md` | Design brief / visual direction |
 
-## GIF poll results
+## GIF poll
 
-Votes are cast in a Microsoft Forms poll; the page shows a live tally read from
-`issues/issue-01-results.json` (auto-refreshes every 60s). To publish the current
-numbers from the Forms **Responses** tab:
-
-```
-scripts/update-results.sh <option-a> <option-b> <option-c>
-```
+Votes are stored by a tiny Cloudflare Worker (`worker/`), one vote per browser, and
+the page shows the live team tally. See `worker/README.md` to deploy or reset it.
