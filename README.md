@@ -4,7 +4,8 @@ Internal weekly web-zine for Huntington University Information & Technology Serv
 
 | File | What it is |
 |---|---|
-| `Ping Newsletter.html` | Issue #1, self-contained single-page web-zine |
-| `Ping Ed1.pdf` | Issue #1, PDF export |
+| `index.html` | Redirects to the current issue — edit the URL in it when a new issue ships
+| `issues/issue-01.html` | Issue #1, self-contained single-page web-zine |
+| `issues/issue-01.pdf` | Issue #1, PDF export |
 | `IT_Newsletter_Issue_1.md` | Issue #1 source text |
 | `Ping_Design_Brief.md` | Design brief / visual direction |
